@@ -3,7 +3,7 @@
   "theme": "ui",
   "version": "0.0.0",
   "description": "Predawn Theme for Atom",
-  "repository": "https://github.com/jamiewilson/predawn-atom",
+  "repository": "https://github.com/jamiewilson/predawn-ui",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
