@@ -23,7 +23,7 @@ Also, view on Atom.io at http://atom.io/packages/predawn-ui
 I also highly reccomend installing the accompanying syntax theme, called [**predawn-syntax**](https://github.com/jamiewilson/predawn-syntax).
 
 ## I also threw in some dock icons just for fun:
-![Atom Predawn Dock Icons](/dock-icons/atom-predawn-dock-icons.png)
+![Atom Predawn Dock Icons](https://raw.githubusercontent.com/jamiewilson/predawn-ui/master/dock-icons/atom-predawn-dock-icons.png)
 
 ## Sublime Text
 [You can also find Predawn for Sublime Text here.](https://github.com/jamiewilson/predawn)
