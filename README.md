@@ -15,9 +15,9 @@ Also, big thanks to @johman10 and @adammw for helping get this ported over!
 
 Either, search for it in the Packages section in you Atom settings tab. Or from the command-line run:
 
-	apm install predawn-atom
+	apm install predawn-ui
 
-Also, view on Atom.io at http://atom.io/packages/predawn-atom
+Also, view on Atom.io at http://atom.io/packages/predawn-ui
 
 ## Syntax Theme
 I also highly reccomend installing the accompanying syntax theme, called [**predawn-syntax**](https://github.com/jamiewilson/predawn-syntax).
