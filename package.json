@@ -1,0 +1,11 @@
+{
+  "name": "Predawn",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Predawn Theme for Atom",
+  "repository": "https://github.com/jamiewilson/predawn-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
