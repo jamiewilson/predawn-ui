@@ -8,7 +8,7 @@ Predawn is a minimal interface theme and a syntax color scheme. It was originall
 
 Also, big thanks to @johman10 and @adammw for helping get this ported over!
 
-![Predawn UI and Syntax Themes](images/predawn-atom.png)
+![Predawn UI and Syntax Themes](https://raw.githubusercontent.com/jamiewilson/predawn-ui/master/images/predawn-atom.png)
 
 
 ## Installation
