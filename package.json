@@ -1,7 +1,7 @@
 {
   "name": "predawn-ui",
   "theme": "ui",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Predawn UI Theme for Atom",
   "repository": "https://github.com/jamiewilson/predawn-ui",
   "license": "MIT",
