@@ -4,19 +4,16 @@
   color: #fff;
   background-color: @base-background-color;
   border-radius: @component-border-radius;
-  padding-left: 5px;
+  padding: 0 10px;
+  max-height: 40px;
+  height: 27px;
 
   .selection .region { background-color: #3a3a3a; }
 }
 
 .editor.editor-colors.mini.is-focused {
-  background-color: #252525;
+  background-color: #191919;
   .selection .region { background-color: #4c4c4c; }
-}
-
-// FIXME: these should go in syntax themes?
-.editor .gutter.drop-shadow {
-  -webkit-box-shadow: -2px 0 10px 2px #222;
 }
 
 @-webkit-keyframes highlight {
@@ -29,7 +26,6 @@
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
 }
-
 
 .editor,
 .editor.react {
