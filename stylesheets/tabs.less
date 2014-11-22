@@ -3,7 +3,11 @@
   line-height: @tab-height;
   background-color: @tab-bar-background-color;
 
-
+  &.colourless-icons {
+    .tab .title:before {
+      color: rgba(255,255,255,0.25) !important;
+    }
+  }
 
   .tab {
     display: inline-block;
@@ -18,9 +22,6 @@
 
     .title {
       opacity: @text-color-subtle;
-      &:before {
-        color: rgba(255,255,255,0.25) !important;
-      }
     }
 
     &:first-child {
