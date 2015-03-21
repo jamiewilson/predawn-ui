@@ -1,6 +1,6 @@
 @import "ui-variables";
 
-.overlay {
+.atom-panel.modal {
   color: #777;
   background-color: @overlay-background-color;
   padding: @component-padding;
@@ -12,8 +12,8 @@
     top: @tab-height;
   }
 
-  .editor.mini,
-  .editor.mini.is-focused {
+  .atom-text-editor[mini],
+  .atom-text-editor[mini].is-focused {
     margin-bottom: @component-padding;
     background-color: #282828;
     padding: @component-padding;

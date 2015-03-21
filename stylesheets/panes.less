@@ -6,17 +6,17 @@
   }
 }
 
-.panes {
-  .pane {
+.atom-pane-container {
+  .atom-pane {
     background-color: @app-background-color;
   }
 
-  .pane-row > * {
+  .atom-pane-axis.horizontal > * {
     // border-right: 1px solid @pane-item-border-color;
     &:last-child { border-right: none; }
   }
 
-  .pane-column > * {
+  .atom-pane-axis.vertical > * {
     border-bottom: 1px solid #fff;
     &:last-child { border-bottom: none; }
   }
