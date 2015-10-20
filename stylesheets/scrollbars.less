@@ -1,18 +1,20 @@
 @import "ui-variables";
 
-::-webkit-scrollbar {
-  width: 2px;
-  height: 2px;
-}
+.scrollbars-visible-always {
+  /deep/ ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
 
-::-webkit-scrollbar-track {
-  background: none;
-}
+  /deep/ ::-webkit-scrollbar-track {
+    background: none;
+  }
 
-::-webkit-scrollbar-thumb {
-  background-color: @cursor-color;
-}
+  /deep/ ::-webkit-scrollbar-thumb {
+    background-color: @cursor-color;
+  }
 
-::-webkit-scrollbar-corner {
-  background: transparent;
+  /deep/ ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
 }
