@@ -2,6 +2,11 @@
   background-color: @tab-bar-background-color;
   color: rgb(140, 140, 140);
   font-weight: 600;
+  .status-bar-right {
+    .inline-block {
+      margin-left: 15px;
+    }
+  }
   .icon.icon-package,
   .icon.icon.squirrel {
     cursor: pointer;
@@ -21,10 +26,13 @@
     color: @text-color-highlight;
   }
   .file-info,
-  .cursor-position,
+  .cursor-position{
+    color: #777;
+    margin-right: 15px;
+  }
   .git-view {
     color: #777;
-    margin-right: 30px;
+    margin-right: 0px;
   }
   a {
     color: #777;
