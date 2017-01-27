@@ -112,3 +112,30 @@ autocomplete-suggestion-list.select-list.popover-list ol.list-group li {
     }
   }
 }
+
+.select-list.fuzzy-finder {
+  .list-group {
+    .two-lines {
+      .status.icon {
+        float: right;
+      }
+      .secondary-line.path {
+        color: rgb(140, 140, 140);
+      }
+    }
+    .two-lines.selected {
+      &::before {
+        height: 50px;
+      }
+      .status.icon {
+        color: @text-color;
+      }
+      .secondary-line.path {
+        color: @text-color;
+      }
+    }
+    .character-match {
+      color: @text-color-selected;
+    }
+  }
+}
